@@ -1,0 +1,299 @@
+{
+	"pages": [ {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "首页"
+		}
+	},{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "登录"
+		}
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "注册"
+		}
+	}, {
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "忘记密码"
+		}
+	}, {
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/user-info/user-info",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "用户信息"
+		}
+	}
+	, {
+		"path": "pages/news-detail/news-detail",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "生活资讯详情"
+		}
+	}
+	,{
+		"path": "pages/yonghu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/yonghu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/yonghu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/fuwufenlei/list",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/fuwufenlei/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/fuwufenlei/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/fuwuxinxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/fuwuxinxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/fuwuxinxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/zaixianyuyue/list",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/zaixianyuyue/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/zaixianyuyue/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/newstype/list",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/newstype/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/newstype/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/news/list",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/news/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/storeup/list",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/storeup/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/storeup/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/smsregistercode/list",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/smsregistercode/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/smsregistercode/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/discussfuwuxinxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/discussfuwuxinxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/discussfuwuxinxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	, {
+		"path": "pages/pay-confirm/pay-confirm",
+		"style": {
+			"navigationBarTitleText": "确认支付"
+		}
+	}
+    , {
+        "path": "pages/map/index",
+        "style": {
+            "navigationBarBackgroundColor": "#91DBE8",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "地图"
+        }
+    }
+    ,{
+        "path": "common/linkOthers/linkOthers",
+        "style": {
+			"navigationBarBackgroundColor": "#91DBE8",
+			"navigationBarTextStyle": "black"
+        }
+    }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "基于Android的生活服务系统的设计与实现",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#FFFFFF",
+		"borderStyle": "white",
+		"backgroundColor": "#91DBE8",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			
+
+			,{
+				"pagePath": "pages/fuwuxinxi/list",
+				"iconPath": "/static/tabs/icon1.png",
+				"selectedIconPath": "/static/tabs/icon1_act.png",
+				"text": "服务信息"
+			}
+
+			,{
+			 	"pagePath": "pages/news/list",
+				"iconPath": "static/tabs/news.png",
+			 	"selectedIconPath": "static/tabs/news_act.png",
+				"text": "生活资讯"
+			}
+
+
+
+            , {
+                "pagePath": "pages/map/index",
+                "iconPath": "/static/tabs/map.png",
+                "selectedIconPath": "/static/tabs/map_act.png",
+                "text": "地图"
+            }
+
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
