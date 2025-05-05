@@ -1,96 +1,105 @@
 {
-	"name": "@zebra-ui/swiper",
-	"id": "zebra-swiper",
-	"displayName": "zebra-swiper 3D轮播，全面对标swiperjs并实现全端兼容。",
-	"version": "2.2.4",
-	"description": "适配多端的高自定义轮播组件，多种3D效果。全面对标swiperjs。",
-	"main": "index.js",
-	"keywords": [
-        "zebra",
-        "swiper",
-        "轮播",
-        "3D",
-        "banner"
-    ],
-	"repository": "https://github.com/zebra-ui/zebra-uniapp-swiper",
-	"bugs": {
-		"url": "https://github.com/zebra-ui/zebra-uniapp-swiper/issues"
-	},
-	"homepage": "https://github.com/zebra-ui/zebra-uniapp-swiper#readme",
-	"author": "zebra-ui",
-	"license": "ISC",
-	"publishConfig": {
-		"access": "public"
-	},
-	"engines": {
-		"HBuilderX": "^3.1.0"
-	},
-    "dcloudext": {
-        "sale": {
-			"regular": {
-				"price": "0.00"
-			},
-			"sourcecode": {
-				"price": "0.00"
-			}
-		},
-		"contact": {
-			"qq": ""
-		},
-		"declaration": {
-			"ads": "无",
-			"data": "插件不采集任何数据",
-			"permissions": "无"
-		},
-        "npmurl": "https://www.npmjs.com/package/@zebra-ui/swiper",
-        "type": "component-vue"
-	},
-	"uni_modules": {
-		"dependencies": [],
-		"encrypt": [],
-		"platforms": {
-			"cloud": {
-				"tcb": "y",
-				"aliyun": "y"
-			},
-			"client": {
-				"Vue": {
-					"vue2": "y",
-					"vue3": "y"
-				},
-				"App": {
-					"app-vue": "y",
-					"app-nvue": "n"
-				},
-				"H5-mobile": {
-					"Safari": "y",
-					"Android Browser": "y",
-					"微信浏览器(Android)": "y",
-					"QQ浏览器(Android)": "y"
-				},
-				"H5-pc": {
-					"Chrome": "y",
-					"IE": "y",
-					"Edge": "y",
-					"Firefox": "y",
-					"Safari": "y"
-				},
-				"小程序": {
-					"微信": "y",
-					"阿里": "y",
-					"百度": "y",
-					"字节跳动": "y",
-					"QQ": "y",
-					"钉钉": "u",
-					"快手": "y",
-					"飞书": "y",
-					"京东": "u"
-				},
-				"快应用": {
-					"华为": "y",
-					"联盟": "y"
-				}
-			}
-		}
-	}
+  "_from": "animate.css@^4.1.1",
+  "_id": "animate.css@4.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-+mRmCTv6SbCmtYJCN4faJMNFVNN5EuCTTprDTAo7YzIGji2KADmakjVA3+8mVDkZ2Bf09vayB35lSQIex2+QaQ==",
+  "_location": "/animate.css",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "animate.css@^4.1.1",
+    "name": "animate.css",
+    "escapedName": "animate.css",
+    "rawSpec": "^4.1.1",
+    "saveSpec": null,
+    "fetchSpec": "^4.1.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmmirror.com/animate.css/-/animate.css-4.1.1.tgz",
+  "_shasum": "614ec5a81131d7e4dc362a58143f7406abd68075",
+  "_spec": "animate.css@^4.1.1",
+  "_where": "/yykj/project/back/8082/generator/schema_template/schema/front/front/app3_fv0",
+  "animateConfig": {
+    "prefix": "animate__"
+  },
+  "author": {
+    "name": "Animate.css"
+  },
+  "browserslist": [
+    "> 3%",
+    "last 2 versions"
+  ],
+  "bugs": {
+    "url": "https://github.com/animate-css/animate.css/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "[![GitHub Version](https://img.shields.io/github/release/daneden/animate.css.svg?style=for-the-badge)](https://github.com/daneden/animate.css) [![Github Star](https://img.shields.io/github/stars/daneden/animate.css.svg?style=for-the-badge)](https://github.com/daneden/animate.css) [![Github Fork](https://img.shields.io/github/forks/daneden/animate.css.svg?style=for-the-badge)](https://github.com/daneden/animate.css) [![License](https://img.shields.io/github/license/daneden/animate.css.svg?style=for-the-badge)](https://github.com/daneden/animate.css)",
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "cssnano": "^4.1.10",
+    "eslint": "^7.8.1",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.3.0",
+    "markdown-it": "^11.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^7.0.27",
+    "postcss-cli": "^7.1.2",
+    "postcss-header": "^2.0.0",
+    "postcss-import": "^12.0.1",
+    "postcss-prefixer": "^2.1.2",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.1.1"
+  },
+  "files": [
+    "animate.compat.css",
+    "animate.min.css",
+    "animate.css",
+    "source/**/*.css"
+  ],
+  "homepage": "https://animate.style/",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm-run-all start precommit"
+    }
+  },
+  "jspm": {
+    "main": "animate.css!",
+    "format": "global",
+    "directories": {
+      "lib": "./"
+    }
+  },
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,json,md,css}": [
+      "prettier --write"
+    ]
+  },
+  "main": "animate.css",
+  "name": "animate.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/animate-css/animate.css.git"
+  },
+  "scripts": {
+    "compat": "npx postcss source/animate.css -o animate.compat.css --no-map --env compat",
+    "dev": "npx postcss source/animate.css -o animate.css --no-map --env development -w",
+    "docs": "npm-run-all docs:library docs:pages",
+    "docs:library": "npx postcss source/animate.css -o ./docs/animate.min.css --no-map --env production",
+    "docs:pages": "node ./docsSource/index.js",
+    "format": "prettier --write \"**/*.{js,json,md,css}\"",
+    "postversion": "git push && git push --tags",
+    "precommit": "lint-staged",
+    "prod": "npx postcss source/animate.css -o animate.min.css --no-map --env production",
+    "raw": "npx postcss source/animate.css -o animate.css --no-map --env development",
+    "start": "npm-run-all raw prod compat",
+    "version": "npm-run-all start docs && git add -A docs animate.css animate.min.css animate.compat.css"
+  },
+  "style": "./animate.css",
+  "version": "4.1.1"
 }

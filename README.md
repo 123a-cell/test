@@ -1,77 +1,48 @@
-<p align="center">
-	<img alt="logo" src="https://assets-1256020106.cos.ap-beijing.myqcloud.com/zebra-swiper/logo.png" width="220" style="margin-bottom: 10px;">
-</p>
+# Animate.css
 
-<h1 align="center">ZebraSwiper</h1>
+[![GitHub Version](https://img.shields.io/github/release/daneden/animate.css.svg?style=for-the-badge)](https://github.com/daneden/animate.css) [![Github Star](https://img.shields.io/github/stars/daneden/animate.css.svg?style=for-the-badge)](https://github.com/daneden/animate.css) [![Github Fork](https://img.shields.io/github/forks/daneden/animate.css.svg?style=for-the-badge)](https://github.com/daneden/animate.css) [![License](https://img.shields.io/github/license/daneden/animate.css.svg?style=for-the-badge)](https://github.com/daneden/animate.css)
 
-<p align="center">基于uniapp，全面对标swiper，并实现全端兼容。</p>
+> If you need the old docs - v3.x.x and under - you can find it [here](https://github.com/animate-css/animate.css/tree/a8d92e585b1b302f7749809c3308d5e381f9cb17).
 
-<p align="center">
-	🔥 <a href="https://swiper.zebraui.com/">文档网站</a>
-	&nbsp;
-	&nbsp;
-	🚀 <a href="https://zebraui.com/" target="_blank">zebraUI组件库</a>
-</p>
+## _Just-add-water CSS animation_
 
-## 介绍
+## Installation
 
-[zebra-swiper](https://github.com/zebra-ui/zebra-uniapp-swiper) 是基于uniapp开发的一款移动端轮播组件，已实现swiper组件90%的功能。
+Install with npm:
 
-[uniapp](https://uniapp.dcloud.io/README)的[swiper](https://uniapp.dcloud.io/component/swiper)组件存在很大的局限性，无法完成一些复杂的轮播效果。
-
-而zebra-swiper不仅可以实现一些3D轮播效果，还可以通过参数来定义你想要的效果。
-
-## 特性
-
-- 全面对标swiper，并实现全端兼容
-- 兼容多端，小程序也可以实现3D轮播效果
-- 可自定义3D效果
-- 多种示例，总有一种适合你
-
-## 安装
-
-### npm方式
-
-```bash
-npm i @zebra-ui/swiper
+```shell
+npm install animate.css --save
 ```
 
-```js
-// pages.json
+Install with yarn:
 
-{
-	"easycom": {
-		"^z-(.*)": "@zebra-ui/swiper/components/z-$1/z-$1.vue"
-	},
-	"pages": [...],
-	"globalStyle": {...}
-}
+```shell
+yarn add animate.css
 ```
 
-### uni_modules方式
+## Getting started
 
-[插件市场](https://ext.dcloud.net.cn/plugin?id=7273)直接导入即可
+You can find the Animate.css documentation on the [website](https://animate.style/).
 
-## 手机预览
+## Accessibility
 
-<div>
-	<img alt="wx" src="https://assets-1256020106.cos.ap-beijing.myqcloud.com/zebra-swiper/wx.jpg" width="200" />
-	<img alt="ali" src="https://assets-1256020106.cos.ap-beijing.myqcloud.com/zebra-swiper/ali.jpg" width="200" />
-	<img alt="h5" src="https://assets-1256020106.cos.ap-beijing.myqcloud.com/zebra-swiper/h5.png" width="200" />
-</div>
+Animate.css supports the [`prefers-reduced-motion` media query](https://webkit.org/blog/7551/responsive-design-for-motion/) so that users with motion sensitivity can opt out of animations. On supported platforms (currently all the majors browsers and OS), users can select "reduce motion" on their operating system preferences and it will turn off CSS transitions for them without any further work required.
 
-## 预览
-<div style="display:flex;flex-wrap:wrap;margin-top:30px;">
- <img alt="gif" src="https://assets-1256020106.cos.ap-beijing.myqcloud.com/zebra-swiper/gif/gif1.gif" width="300" style="margin:20px;" />
- <img alt="gif" src="https://assets-1256020106.cos.ap-beijing.myqcloud.com/zebra-swiper/gif/gif2.gif" width="300" style="margin:20px;" />
- <img alt="gif" src="https://assets-1256020106.cos.ap-beijing.myqcloud.com/zebra-swiper/gif/gif3.gif" width="300" style="margin:20px;" />
- <img alt="gif" src="https://assets-1256020106.cos.ap-beijing.myqcloud.com/zebra-swiper/gif/gif4.gif" width="300" style="margin:20px;" />
- <img alt="gif" src="https://assets-1256020106.cos.ap-beijing.myqcloud.com/zebra-swiper/gif/gif5.gif" width="300" style="margin:20px;" />
- <img alt="gif" src="https://assets-1256020106.cos.ap-beijing.myqcloud.com/zebra-swiper/gif/gif6.gif" width="300" style="margin:20px;" />
-</div>
+## Core team
 
-## 群
+| ![](https://avatars2.githubusercontent.com/u/439365?s=460&u=512b4cc5324938ae40bbb8f3b7769d335953cd3a&v=4) | ![](https://avatars2.githubusercontent.com/u/5007208?s=460&u=418401ee605824272e5dcb955fd64ea24546a857&v=4) | ![](https://avatars1.githubusercontent.com/u/15052701?s=460&u=9e58364978379536d3f26c4ce5cae1a2a449a0e4&v=4) |
+| --- | --- | --- |
+| [Daniel Eden](https://github.com/daneden) | [Elton Mesquita](https://github.com/eltonmesquita) | [Waren Gonzaga](https://github.com/WarenGonzaga) |
+| Animate.css creator | Maintainer | Core contributor |
 
-QQ群：947159437
+## License
 
-![image](https://assets-1256020106.cos.ap-beijing.myqcloud.com/zebra-swiper/zebra-swiper-group-code.png)
+Animate.css is licensed under the MIT license. <https://opensource.org/licenses/MIT>
+
+## Code of Conduct
+
+This project and everyone participating in it is governed by the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [callmeelton@gmail.com](mailto:callmeelton@gmail.com).
+
+## Contributing
+
+Pull requests are the way to go here. We only have two rules for submitting a pull request: match the naming convention (camelCase, categorised [fades, bounces, etc]) and let us see a demo of submitted animations in a [pen](https://codepen.io). That **last one is important**.
